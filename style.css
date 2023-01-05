@@ -1,0 +1,164 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 530px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.equilibrium {
+    width: 90%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.container h1 {
+    font-size: 1.2em;
+    text-align: left;
+    margin: 15px;
+}
+
+#text {
+    color: hsl(215, 51%, 70%);
+}
+
+.container #text {
+    font-size: 0.8em;
+    text-align: left;
+    margin: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.images {
+    position: relative;
+}
+
+.eyes {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    width: 14%;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 38%;
+    background-color: rgba(0, 255, 255, 0.418);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eyes:hover{
+    opacity: 1;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding-right: 80px;
+}
+
+.icon-eth {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    margin-right: 5px;
+    width: 10%;
+}
+
+.clock {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    margin-right: 5px;
+    width: 20%;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+    font-size: 0.8em;
+    display: flex;
+    margin: 10px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px;
+    border-top: 1px solid hsla(215, 52%, 70%, 0.144);
+    padding: 10px;
+}
+
+.jules-wyvern {
+    width: 35px;
+    height: 35px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.creation {
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9em;
+    margin-right: 3px;
+}
+
+.wyvern {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.9em;
+}
+
+.wyvern:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution { 
+    color: hsl(215, 51%, 70%);
+    font-size: 11px; 
+    text-align: center;
+    display: flex;
+    margin: 30px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
